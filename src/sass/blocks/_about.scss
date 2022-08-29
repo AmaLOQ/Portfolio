@@ -1,0 +1,56 @@
+.about {
+	padding: 120px 0 120px;
+	position: relative;
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 400px 570px 570px;
+		grid-auto-flow: auto;
+		grid-template-rows: 300px 300px;
+		column-gap: 70px;
+	}
+	&__devider{
+		width: 60px;
+		height: 3px;
+		background-color: $main-color;
+		margin-bottom: 20px;
+	}
+	// .about__img
+
+	&__img {
+		img{
+			max-width: 100%;
+		}
+	}
+	&__subtitle{
+		padding-left: 10px;
+		z-index: 5;
+		position: relative;
+		@include before_circle;
+	}
+	// .about__descr
+
+	&__descr {
+	}
+
+	// .about__text
+
+	&__text {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 21px;
+	}
+
+	// .about__skills
+
+	&__skills {
+	}
+}
+.container {
+}
+.title {
+
+	// .title_fz16
+
+	&_fz16 {
+	}
+}
