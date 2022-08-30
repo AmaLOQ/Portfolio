@@ -17,7 +17,7 @@
 .devider{
     width: 60px;
     height: 3px;
-    margin-top: 25px;
+    margin: 25px auto 0 auto;
     background-color: $main-color;
 }
 @import 'blocks/menu';
@@ -26,3 +26,5 @@
 @import 'blocks/button'; 
 @import 'blocks/side-panel';
 @import 'blocks/about';
+@import 'blocks/usefull';
+
