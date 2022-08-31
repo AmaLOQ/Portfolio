@@ -114,8 +114,8 @@
             <div class="title title_fz16 promo__subtitle">Меня зовут Алексей Мухаметшин</div>
             <h1 class="title title_fz48 promo__title">Я web-разработчик из города Томск</h1>
             <div class="promo__buttons">
-                <a href="#" class="title title_fz14 promo__link btn"><span>Портфолио</span></a>
-                <a href="#" class="title title_fz14 promo__link">Про меня</a>
+                <a href="#" class="promo__link btn"><span>Портфолио</span></a>
+                <a href="#" class="promo__link">Про меня</a>
             </div>
         </div>
     </section>
@@ -164,7 +164,7 @@
             </div>
         </div>
     </section>
-    <section class="usefull">
+    <!-- <section class="usefull">
         <div class="container">
             <div class="usefull__subtitle title title_fz16">Опыт</div>
             <h2 class="usefull__title title">Чем я буду полезен</h2>
@@ -428,25 +428,29 @@
                     <div class="title title_fz14 contacts__text">Или оставьте ваши данные и я сам вам напишу:</div>
                     <form class="contacts__form">
                         <div class="contacts__input">
-                            <input type="text" id="name" name="name">
+                            <input required type="text" id="name" name="name">
                             <label for="name">Ваше имя</label>
                         </div>
                         <div class="contacts__input">
-                            <input type="email" id="email" name="email">
+                            <input required type="email" id="email" name="email">
                             <label for="email">Ваша почта</label>
                         </div>
                         <div class="contacts__textarea">
                             <textarea name="text" id="text" cols="20" rows="2"></textarea>
                             <label for="text">Ваше сообщение</label>
                         </div>
-                        <div>                        
+                        <div class="contacts__triggers">                        
                             <button class="btn title title_fz14">Отправить собщение</button>
+                            <div class="contacts__policy">
+                                <input required type="checkbox">
+                                <span>Я согласен(а) с <a href="policy.html">политикой конфиденциальности</a></span>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <script src="js/script.js"></script>
 </body>
 </html>
