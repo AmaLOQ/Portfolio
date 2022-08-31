@@ -29,12 +29,18 @@
 	&__link {
 		text-transform: uppercase;
 		letter-spacing: 2px;
-		font-weight: bold;
-		color: #000;
+		line-height: 25px;
+		span{
+			line-height: 25px;
+		}	
+		&.btn{
+			&:hover{
+				color:white;
+			}
+		}
 		&:hover{
 			color: #000;
 			text-decoration: none;
 		}
-	}
 }
-
+}
