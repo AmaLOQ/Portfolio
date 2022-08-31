@@ -1,0 +1,51 @@
+.price {
+
+	padding-top: 60px;
+
+	&__title {
+		position: relative;
+		@include before_circle-center;
+	}
+
+	// .price__subtitle
+
+	&__subtitle {
+	}
+
+	// .price__wrapper
+
+	&__wrapper {
+	}
+
+	// .price__item
+
+	&__item {
+	}
+
+	// .price__item-title
+
+	&__item-title {
+	}
+
+	// .price__price
+
+	&__price {
+	}
+
+	// .price__descr
+
+	&__descr {
+	}
+}
+.container {
+}
+.title {
+
+	// .title_fz16
+
+	&_fz16 {
+	}
+}
+.devider {
+}
+
