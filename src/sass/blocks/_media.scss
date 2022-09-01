@@ -34,11 +34,27 @@
 	}
 	.stack{
 		&__grid-container{
-			grid-template-columns: repeat(3, auto);
+			grid-template-columns: repeat(auto-fit, 270px);
 			justify-content: space-between;
 		}
 		&__grid-container-lines{
 			grid-template-columns: repeat(2, auto);
+		}
+	}
+	.portfolio{
+		&__grid-container{
+			grid-template-columns: repeat(auto-fit, 280px);
+			justify-content: space-around;
+			grid-auto-rows:280px;
+			row-gap: 35px;
+			.horizontal{
+				grid-column: auto;
+				grid-row: auto;
+			}
+			.vertical{
+				grid-column: auto;
+				grid-row: auto;
+			}
 		}
 	}
 }
@@ -78,12 +94,15 @@
 		padding-top: 60px;
 		&__grid-container{
 			padding-top: 40px;
-			grid-template-columns: repeat(2, auto);
-			justify-content: center;
 		}
 		&__grid-item{
 			padding: 25px 25px 25px 25px;
-			width: 250px;
+		}
+	}
+	.price{
+		&__wrapper{
+			padding: 0;
+			grid-template-columns: repeat(auto-fit, 350px);
 		}
 	}
 }
@@ -117,8 +136,32 @@
 		}
 	}
 	.stack{
+		&__grid-container{
+			justify-content: center;
+		}
 		&__grid-container-lines{
 			grid-template-columns: repeat(2, auto);
+		}
+	}
+	.portfolio{
+		&__subtitle{
+			line-height: 36px;
+			margin: 20px 0 0 0;
+		}
+		&__devider{
+			margin-top: 15px;
+		}
+		padding-top: 40px;
+		&__grid-container{
+			margin-top: 40px;
+		}
+	}
+	.price{
+		padding-top: 40px;
+		&__wrapper{
+			margin-top: 40px;
+			justify-content: center;
+			row-gap: 30px;
 		}
 	}
 }
@@ -179,7 +222,6 @@
 		}
 		&__grid-container{
 			padding-top: 20px;
-			grid-template-columns: repeat(1, auto);
 			justify-content: center;
 			row-gap: 20px;
 		}
@@ -188,11 +230,18 @@
 			width: 270px;
 		}
 		&__grid-container-lines{
-			padding-top: 40px;
-			grid-template-columns:  300px;
+			grid-template-columns: 300px;
 			justify-content: center;
+			padding-top: 40px;
 			row-gap: 40px;
 		}
 	}
-
+	.price{
+		&__wrapper{
+			margin-top: 40px;
+			grid-template-columns: repeat(auto-fit, 295px);
+			justify-content: center;
+			row-gap: 30px;
+		}
+	}
 }
