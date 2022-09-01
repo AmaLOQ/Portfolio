@@ -83,8 +83,9 @@
 .item-lines-grid {
 	&__body {
 		display: grid;
-		grid-template-columns: 1fr minmax(40px, 1fr);
+		grid-template-columns: auto auto;
 		grid-template-rows: repeat(2, minmax(36px, auto));
+		grid-auto-rows: minmax(36px, auto);
 	}
 
 	// .item-lines-grid__title
@@ -111,7 +112,7 @@
 	&__line {
 		align-self: end;
 		grid-column: 1/3;
-		width: 350px;
+		width: 100%;
 		height: 14px;
 		background: #E8E4DE;
 		border-radius: 4px;

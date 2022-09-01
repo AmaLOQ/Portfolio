@@ -13,6 +13,7 @@
 
 	&__title {
 		text-align: center;
+		margin-bottom: 0;
 	}
 
 	// .usefull__divider
@@ -117,4 +118,23 @@
 		line-height: 18px;
 	}
 }
+// .npt{
+// 	.column-useful{
+// 		&__item-head{
+// 			padding: 10px 0 0 100px;
+// 		}
+// 		&__item-circle{
+// 			top: 10px;
+// 		}
+// 	}
+// }
+// .small-top{
+// 	.column-useful{
+// 		&__item_top28{
+// 			&:before{
+// 				top: 28px;
+// 			}
+// 		}
+// 	}
+// }
 
